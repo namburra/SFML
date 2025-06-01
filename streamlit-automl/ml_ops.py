@@ -106,7 +106,7 @@ class ModelReg:
 
         return metric_results
 
-    @st.dialog("Model Test")
+    #@st.dialog("Model Test")
     def call_test_models(self, df: Union[pd.DataFrame, DataFrame], tbl_name: str):
         test_columns = st.columns((1, 2, 2))
         test_status = test_columns[0].status("Model Test", expanded=True)
