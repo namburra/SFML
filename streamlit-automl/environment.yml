@@ -6,4 +6,4 @@ dependencies:
   - nbconvert=7.10.0
   - snowflake-ml-python=1.6.0
   - snowflake-snowpark-python
-  - streamlit=1.35.0
+  - streamlit=1.45.0
